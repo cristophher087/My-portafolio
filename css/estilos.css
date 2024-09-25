@@ -1,6 +1,36 @@
-.cabecera__contenedor{
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --color-sobre-mi: #EAF2FD;
+    --fuente-raleway: 'Raleway', raleway;
+}
+
+
+.cabecera__contenedor {
+    font-family: var(--fuente-raleway);
     background-color: white;
     height: 88px;
     width: 100%;
-    
+}
+
+.contenedor-about {
+    font-family: var(--fuente-raleway);
+    background-color: var(--color-sobre-mi);
+
+}
+
+.contenedor-pasatiempos {
+    font-family: var(--fuente-raleway);
+}
+
+.contenedor-formaciones {
+    font-family: var(--fuente-raleway);
+}
+
+.contenedor-experiencias {
+    font-family: var(--fuente-raleway);
+}
+
+.contenedor-formulario {
+    font-family: var(--fuente-raleway);
 }
