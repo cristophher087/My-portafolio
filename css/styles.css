@@ -3,6 +3,7 @@
     /*Organiza mis bloques en linea*/
     align-items: center;
     /*Centra mis elementos*/
+    justify-content: space-between;
 }
 
 .cabecera__menu {
