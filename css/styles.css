@@ -1,0 +1,10 @@
+.cabecera__contenedor {
+    display: flex;
+    /*Organiza mis bloques en linea*/
+    align-items: center;
+    /*Centra mis elementos*/
+}
+
+.cabecera__menu {
+    display: flex;
+}
