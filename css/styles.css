@@ -2,23 +2,54 @@
 .cabecera__contenedor {
     display: flex;
     /*Organiza mis bloques en linea*/
-    justify-content: space-between;
+    flex-direction: column;
+    /*Direccion en columna*/
     /*Espacio entre elementos hijos*/
     align-items: center;
     /*Centra mis elementos*/
     top: 0;
 }
 
+.cabecera__menu {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
 .cabecera__menu--links:nth-child(1),
 .cabecera__menu--links:nth-child(2),
-.cabecera__menu--links:nth-child(3) {
+.cabecera__menu--links:nth-child(3),
+.cabecera__menu--links:nth-child(4),
+.cabecera__menu--links:nth-child(5) {
     display: none;
+}
+
+.cabecera__menu--email {
+    flex-shrink: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
 }
 
 /*Contenedor acerca de mi*/
 
-.contenedor-about__redes {
+.contenedor-intro__redes {
     display: flex;
     gap: 8px;
     font-weight: bold;
+}
+
+/*contenedor Sobre mi*/
+
+.contenedor-about {
+    width: auto;
+    height: auto;
+}
+
+.contenedor-about__contenido {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 16px;
 }
