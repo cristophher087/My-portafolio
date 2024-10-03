@@ -32,13 +32,15 @@
     cursor: pointer;
 }
 
-/*Contenedor acerca de mi*/
+/*Contenedor descripcion*/
 
 .contenedor-intro__redes {
     display: flex;
     gap: 8px;
     font-weight: bold;
 }
+
+
 
 /*contenedor Sobre mi*/
 
@@ -53,3 +55,46 @@
     gap: 8px;
     padding: 16px;
 }
+
+/*Skills & Hobbies*/
+
+.contenedor-pasatiempos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor-pasatiempos__titulo {
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+    justify-content: center;
+}
+
+.contenedor-pasatiempos__hobbies,
+.contenedor-pasatiempos__skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    padding: 8px 16px;
+    box-sizing: border-box;
+}
+
+.pasatiempos__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+    padding: 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: background-color 0.5s;
+    width: 120px;
+    /* Ajusta según necesidad */
+}
+
+/**/
