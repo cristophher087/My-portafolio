@@ -107,8 +107,8 @@
 }
 
 .pasatiempos__item i {
-    width: 50px;
-    height: 50px;
+    width: 32px;
+    height: 32px;
     margin-bottom: 2px;
     background-size: contain;
     background-repeat: no-repeat;
@@ -141,7 +141,31 @@
     content: url(../img/python.png);
 }
 
+/*iconos para Hobbies*/
 
+.item__music::before {
+    content: url(../img/music.png);
+}
+
+.item__movies::before {
+    content: url(../img/movies.png);
+}
+
+.item__run::before {
+    content: url(../img/run.png);
+}
+
+.item__hiking::before {
+    content: url(../img/hiking.png);
+}
+
+.item__games::before {
+    content: url(../img/games.png);
+}
+
+.item__chess::before {
+    content: url(../img/chess.png);
+}
 
 /*Contenedor formación academica*/
 .contenedor-formaciones {
