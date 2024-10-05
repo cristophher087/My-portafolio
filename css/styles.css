@@ -98,4 +98,15 @@
     /* Ajusta según necesidad */
 }
 
-/**/
+/*Contenedor formación academica*/
+/* .formaciones {
+    display: flex;
+    align-items: center;
+} */
+
+.formaciones__informacion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}

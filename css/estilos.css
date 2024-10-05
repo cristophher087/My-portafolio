@@ -69,8 +69,6 @@
     font-size: 1rem;
 }
 
-
-
 /*contenedor Sobre mi*/
 
 .contenedor-about {
@@ -168,9 +166,34 @@
 }
 
 /*Contenedor formación academica*/
-.contenedor-formaciones {
+.formaciones {
+    width: 100%;
+    height: auto;
     font-family: var(--fuente-raleway);
+    background-color: var(--color-sobre-mi);
+    color: var(--color-texto);
     box-sizing: border-box;
+    padding: 0%;
+}
+
+.titulo__seccion {
+    align-self: center;
+    font-weight: bold;
+    font-size: 1.375rem;
+    padding: 16px 16px 8px;
+}
+
+.formaciones__informacion {
+    width: 296px;
+    height: 169px;
+    gap: 8px;
+    padding: 8px 16px;
+}
+
+.formaciones__informacion img {
+    width: fit-content;
+    /*Ajusto el contenido de manera proporcional*/
+    height: 118px;
 }
 
 /*Contenedor experiencia profesional*/
