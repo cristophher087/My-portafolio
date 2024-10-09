@@ -169,6 +169,7 @@
 .formaciones {
     width: 100%;
     height: auto;
+    margin: 0 auto;
     font-family: var(--fuente-raleway);
     background-color: var(--color-sobre-mi);
     color: var(--color-texto);
@@ -197,9 +198,66 @@
 }
 
 /*Contenedor experiencia profesional*/
-.contenedor-experiencia {
+.experiencia {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
     font-family: var(--fuente-raleway);
+    background-color: white;
+    color: var(--color-texto);
     box-sizing: border-box;
+}
+
+.experiencia__contenido {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 296px;
+    /* Ancho fijo */
+    height: 251px;
+    /* Alto fijo */
+    /* overflow: hidden; */
+    /* Esconde cualquier contenido que exceda el contenedor */
+    /* position: absolute; */
+    padding: 16px;
+    gap: 8px;
+}
+
+.experiencia__contenido__img {
+    width: fit-content;
+    /*Ajusto el contenido de manera proporcional*/
+    height: 118px;
+    /* Elimina el borde del iframe */
+    /* transform: scale(0.4); */
+    /* Ajusta el nivel de zoom */
+    /* transform-origin: 0 0; */
+    /* Asegura que el zoom se haga desde la esquina superior izquierda */
+}
+
+.experiencia__contenido button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: white;
+    color: #2A7AE4;
+    text-decoration: none;
+    border: 1px solid #2A7AE4;
+    border-radius: 0;
+    transition: background-color 0.3s ease;
+}
+
+.repositorio1::before {
+    content: url(https://github.com/cristophher087/challenge-encriptador-texto);
+}
+
+.demo1::before {
+    content: url(https://challenge-encriptador-texto-blue.vercel.app/);
+}
+
+.experiencia__contenido button:hover {
+    background-color: #2A7AE4;
+    color: white;
+
 }
 
 /*contenedor contacto*/
